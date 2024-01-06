@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buku Tamu SMA 13 Bandar Lampung</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Buku Tamu SMA 13 Bandar Lampung</h1>
+        <form method="post" class="FormData"
+            action="https://script.google.com/macros/s/AKfycbynbEGDD-FbFOKbHnysqRSFpqGJCG5UeleutbFNyjxFzmlmCtfRTtOretdiiC5TtKB3/exec">
+            <div id="submitForm">
+                <label for="name">Nama:</label>
+                <input type="text" placeholder="Masukkan nama" id="name" name="Nama">
+                
+                <label for="visitDate">Tanggal Kunjungan:</label>
+                <input type="date" id="visitDate" name="Tanggal Kunjungan">
+                
+                <label for="purpose">Tujuan Kunjungan:</label>
+                <textarea placeholder="Masukkan Tujuan" id="purpose" name="Tujuan Kunjungan"></textarea>
+                
+                <label for="message">Pesan:</label>
+                <textarea placeholder="Masukkan pesan" id="message" name="Pesan"></textarea>
+                
+                <button type="button" class="submit-button" onclick="submitForm()">Submit</button>
+            </div>
+                        
+        </form>
+    </div>
+    <script src="Js.js"></script>
+</body>
+
+</html>
