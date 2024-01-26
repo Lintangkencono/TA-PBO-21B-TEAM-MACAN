@@ -1,37 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Buku Tamu SMA 13 Bandar Lampung</title>
-    <link rel="stylesheet" href="Style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SMP 3 BANDAR LAMPUNG</title>
+  <link href="assets/images/Logo sekolah.png" rel="Logo sekolah">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
-
-<body>
-    <div class="container">
-        <h1>Buku Tamu SMA 13 Bandar Lampung</h1>
-        <form method="post" class="FormData"
-            action="https://script.google.com/macros/s/AKfycbynbEGDD-FbFOKbHnysqRSFpqGJCG5UeleutbFNyjxFzmlmCtfRTtOretdiiC5TtKB3/exec">
-            <div id="submitForm">
-                <label for="name">Nama:</label>
-                <input type="text" placeholder="Masukkan nama" id="name" name="Nama">
-                
-                <label for="visitDate">Tanggal Kunjungan:</label>
-                <input type="date" id="visitDate" name="Tanggal Kunjungan">
-                
-                <label for="purpose">Tujuan Kunjungan:</label>
-                <textarea placeholder="Masukkan Tujuan" id="purpose" name="Tujuan Kunjungan"></textarea>
-                
-                <label for="message">Pesan:</label>
-                <textarea placeholder="Masukkan pesan" id="message" name="Pesan"></textarea>
-                
-                <button type="button" class="submit-button" onclick="submitForm()">Submit</button>
-            </div>
-                        
-        </form>
+<body id="top">
+  <header class="header" data-header>
+    <div class="overlay" data-overlay></div>
+      <div class="container">
+        <div class="header-btn-group">
+          <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+          </button>
+        </div>
+      </div>
     </div>
-    <script src="Js.js"></script>
-</body>
-
-</html>
+    <div class="header-bottom">
+      <div class="container">
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <a href="#" class="logo">
+            </a>
+            <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+          </div>
+          <ul class="navbar-list">
+            <li>
+              <a href="#home" class="navbar-link" data-nav-link>home</a>
+            </li>
+            <li>
+              <a href="#" class="navbar-link" data-nav-link>about us</a>
+            </li>
+            <li>
+              <a href="#Visi-Misi" class="navbar-link" data-nav-link>Visi-Misi</a>
+            </li>
+            <li>
+              <a href="#gallery" class="navbar-link" data-nav-link>gallery</a>
+            </li>
+            <li>
+              <a href="#BukuTamu" class="navbar-link" data-nav-link>Buku Tamu</a>
+            </li>
+            <li>
+              <a href="#contact" class="navbar-link" data-nav-link>contact us</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+    <article>
+      <section class="hero" id="home">
+        <div class="container">
+          <h2 class="h1 hero-title">SMP 3 BANDAR LAMPUNG</h2>
+          <p class="hero-text">
+            Berlokasi di kampung Gulag Galig, makaa nama pertamanya SMP Gulag Galig Telukbetung. Pada awalnya
+            sekolah ini beralamat di Jalan Robert Wolter Monginsidi No. 72 Telukbetung Namun gedung lama
+            tersebut diratakan dengan tanah dan dibangun lapangan KORPRI berhadapan langsung dengan kantor
+            KDH Tingkat I Provinsi Lampung          
+          </p>
+        </section>
+        <div class="grid-container" id="Visi-Misi">
+          <div class="grid-item">
+            <div class="circle-icon mission">
+              <img src="https://tuning-mania.com/pub/media/wysiwyg/mission-icon.png" alt="Mission Icon">
+            </div>
+            <h3>Misi</h3>
+            <p>Tujuan utama adalah menumbuhkan penghayatan dan pengamalan ajaran agama, meningkatkan kegiatan keagamaan dalam kehidupan sehari-hari, dan melaksanakan ajaran agama dalam setiap aspek pembelajaran. Selain itu, fokus juga pada pengembangan karakter nasionalis, religius, mandiri, gotong royong, dan integritas dalam kurikulum sekolah.</p>
+          </div>
+          <div class="grid-item">
+            <div class="circle-icon vision">
+              <img src="https://tuning-mania.com/pub/media/wysiwyg/vision-icon.png" alt="Vision Icon">
+            </div>
+            <h3>Visi</h3>
+            <p>” Beriman, bertaqwa, unggul dalam prestasi, terampil dan mampu menghadapi tantangan masa depan”
+              (Faithful, devoted, superior in achievement, skilled and able to face future challenges).
+            </p>
+          </div>
+        </div>
