@@ -40,7 +40,7 @@ window.addEventListener("scroll", function () {
 
 });
 
-// FORM
+// submitForm
 function submitForm() {
   var name = document.getElementById('name').value;
   var visitDate = document.getElementById('visitDate').value;
