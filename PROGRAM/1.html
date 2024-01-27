@@ -85,3 +85,72 @@
             </p>
           </div>
         </div>
+        <section id="BukuTamu">
+          <div class="container-form">
+            <h2 class="h2 section-title">Buku Tamu</h2>
+            <p class="section-text">
+              Silkan isi buku tamu
+            </p>
+            <form method="post" class="FormData"
+            action="https://script.google.com/macros/s/AKfycbynbEGDD-FbFOKbHnysqRSFpqGJCG5UeleutbFNyjxFzmlmCtfRTtOretdiiC5TtKB3/exec">
+            <div id="submitForm">
+                <label for="name">Nama :</label>
+                <input type="text" placeholder="Masukkan nama" id="name" name="Nama">
+                
+                <label for="visitDate">Tanggal Kunjungan :</label>
+                <input type="date" id="visitDate" name="Tanggal Kunjungan">
+                
+                <label for="purpose">Tujuan Kunjungan :</label>
+                <textarea placeholder="Masukkan Tujuan" id="purpose" name="Tujuan Kunjungan"></textarea>
+                
+                <label for="message">Pesan :</label>
+                <textarea placeholder="Masukkan pesan" id="message" name="Pesan"></textarea>
+                
+                <button type="button" class="submit-button" onclick="submitForm()">Kirim</button>
+            </div>           
+        </form>
+          </section>
+        </section>
+        <section class="cta" id="contact">
+          <div class="container">
+            <div class="cta-content">
+              <h2 class="h2 section-title">Hubungi Kami.</h2>
+              <p class="section-text">
+                Anda memiliki pertanyaan? Kami punya jawaban! Jangan ragu untuk menghubungi kami untuk informasi lebih lanjut atau dukungan.            </p>
+            </div>
+            <a href="https://wa.me/+628123456789" target="_blank" class="btn btn-secondary">Hubungi Kami!</a>
+          </div>
+        </section>
+      </article>
+    </main>
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="footer-brand">
+            <h4>Hubungi Kami</h4>
+            <p class="contact-text">
+              Hubungi kami untuk pertanyaan, layanan pelanggan, atau kerjasama. Kami siap memberikan bantuan dan informasi yang Anda butuhkan
+            </p>
+            <ul>
+              <li class="contact-item">
+                <ion-icon name="call-outline"></ion-icon>
+                <a href="tel:+01123456790" class="contact-link">0721488843</a>
+              </li>
+              <li class="contact-item">
+                <ion-icon name="mail-outline"></ion-icon>
+                <a href="mailto:info.tourly.com" class="contact-link">info@smpnegeri3bandarlampung.sch.id</a>
+              </li>
+              <li class="contact-item">
+                <ion-icon name="location-outline"></ion-icon>
+                <address>Jl.Basuki Rahmat No.23 Bandar Lampung</address>
+              </li>
+            </ul>
+          </div>
+    <a href="#top" class="go-top" data-go-top>
+      <ion-icon name="chevron-up-outline"></ion-icon>
+    </a>
+    <script src="./assets/js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+  </html>
